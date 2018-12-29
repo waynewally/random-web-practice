@@ -7,8 +7,36 @@
     <title>Foundation framwork web-page</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="responsive-hidden-nav.scss">
+
   </head>
   <body>
+      <div class="responsive-hidden-nav-container">
+          <nav class="top-bar responsive-hidden-nav" data-responsive-hidden-nav>
+            <button class="responsive-hidden-button">
+              <div class="hamburger"></div> 
+            </button>
+            <ul class="visible-links">
+              <li><a href="#">Responsive</a></li>
+              <li><a href="#">navigation</a></li>
+              <li><a href="#">whose</a></li>
+              <li><a href="#">overflowing</a></li>
+              <li><a href="#">elements</a></li>
+              <li><a href="#">get</a></li>
+              <li><a href="#">stacked</a></li> 
+              <li><a href="#">into</a></li>
+              <li><a href="#">hamburger</a></li>
+              <li><a href="#">menu</a></li>
+              <li><a href="#">effortlessly</a></li>
+            </ul>
+            <ul class="hidden-links hidden"></ul>
+          </nav>
+          <h4 class="demo-title">resize the window please..</h4>
+        </div>
+      </div>
+        
+        
+        
      <div class="grid-container">
        <div class="grid-x grid-padding-x">
          <div class="large-12 cell">
@@ -16,7 +44,38 @@
            <h3>html & css</h3>
          </div>
        </div>
-   
+       <div class="fullscreen-image-slider">
+          <div class="orbit" role="region" aria-label="FullScreen Pictures" data-orbit>
+            <ul class="orbit-container">
+              <button class="orbit-previous">
+                <span class="show-for-sr">Previous Slide</span>
+                <span class="nav fa fa-chevron-left fa-3x"></span>
+              </button>
+              <button class="orbit-next">
+                <span class="show-for-sr">Next Slide</span>
+                <span class="nav fa fa-chevron-right fa-3x"></span>
+              </button>
+              <li class="is-active orbit-slide">
+                <img class="orbit-image" src="https://www.selfdevelopmentsecrets.com/wp-content/uploads/smiley-1691280_1280.jpg" alt="Space">
+                <figcaption class="orbit-caption">
+                  <h1>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</h1>
+                </figcaption>
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60vOOOsokPLtjNbSjEF7WW_pqGV7EttwsygFc5movOkodAdWq" alt="Space">
+                <figcaption class="orbit-caption">
+                  <h1>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</h1>
+                </figcaption>
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="https://i.imgur.com/rsTQbNV.jpg" alt="Space">
+                <figcaption class="orbit-caption">
+                  <h1>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</h1>
+                </figcaption>
+              </li>
+            </ul>
+          </div>
+        </div>
        <br><br><br>
        <div class="row"><em><strong><p style="float:left; font-size:2em; margin-top: -1.2rem">I</p>t's all in the row class from here</small></strong></em><br><br>
          <h1>Heading 1 followed by a small tag<small>Secondary Text</small></h1>
@@ -37,12 +96,28 @@
 
 
          <p><em><strong><p style="float:left;font-size:2em; margin-top:-1.3rem  ">f</p>loat classies</strong></em></p>
-         <div class=""
+         <div class="callout clearfix">
+           <a class="button float-left">a tag class button left float</a>
+           <a class="button float-right">a tag class button float Right</a>
+
+         </div>
+         <hr>
+         <code>&lt;div class="myclass"&gt;hows is it going&lt;/div&gt;</code>
+         <p>Press <kbd>Cmd+r</kbd> (or <kdb>Ctrl+r</kdb> on Windows)</p>
         </div>
-     </div>
+
+        <hr>
+        <blockquote>
+          this is a discription of foundation framwork html
+        <cite>foundation makers & traversy media @https://www.youtube.com/watch?v=DEu5xYEZx18 </cite>
+        </blockquote>
+  
+      </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/responsive-hidden-nav.js"></script>
     <script src="js/app.js"></script>
   </body>
+  
 </html>
